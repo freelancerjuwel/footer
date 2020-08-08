@@ -1,0 +1,124 @@
+*{margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.content{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #00063A;
+}
+.ftr-top{
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top-right input{
+    height: 35px;
+    width:250px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.top-right input[type="email"]{
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.top-right button{
+    padding: 10px;
+    background: #FB8C87;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.top-left{
+    color: #fff;
+}
+
+.top-right p{
+    color: #fff;
+    line-height: 3;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+
+
+.middle-ftr{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #fff;
+}
+
+.icon{
+    margin: 15px 0;
+    font-size: 40px;
+    padding: 0 15px;
+    transition: all 0.4s ease;
+}
+
+.icon :hover{
+    transform: translateY(10px);
+    transition: all 0.2s ease;
+}
+
+
+hr{
+    width: 300px;
+    border: 1 solid #fff;
+    margin: auto;         
+}
+
+
+
+
+
+.ftr-contant{
+    color: #fff;
+    display: flex;
+    padding: 50px 10px;
+    line-height: 2;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-left: 1px solid red;
+}
+
+
+
+.text {
+    border-left: 1px solid #fff0f0;
+    padding: 0 20px;
+}
+
+.text:nth-child(1){
+    border-left: none;
+}
+
+.text spen{
+    display: block;
+}
+
+
+.text h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
